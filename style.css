@@ -160,9 +160,13 @@ p {
 
 .bottomnav {
     display: flex;
-    margin-left: 5em;
-    gap: 0em 1em;
+    gap: .2em 1em;
     flex-wrap: wrap;
+    margin-left: 10%;
+    justify-content: right;
 
 
+}
+.bottomnav > a {
+    width: max-content;
 }
